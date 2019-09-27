@@ -1,4 +1,5 @@
 ![Build](https://github.com/muratkars/python-flask-docker/workflows/.github/workflows/dockerpush.yml/badge.svg)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmuratkars%2Fpython-flask-docker.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmuratkars%2Fpython-flask-docker?ref=badge_shield)
 
 # python-flask-docker
 Basic Python Flask app in Docker which prints the hostname and IP of the container
@@ -37,3 +38,7 @@ $ docker inspect -f '{{ .Config.Hostname }}' my-container
 ```
 
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmuratkars%2Fpython-flask-docker.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmuratkars%2Fpython-flask-docker?ref=badge_large)
